@@ -8,7 +8,7 @@
  * If a node is already there, move it down as right child
  * Return: pointer to the newly inserted node
  */
-binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new;
 
